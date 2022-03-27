@@ -8,10 +8,6 @@
   padding: 0;
 }
 
-/*body{
-	max-width: 95%;
-	margin: 0 auto;
-}*/
 
 /*-----------------------------Блок_1---------------------------------------*/
 
@@ -23,6 +19,7 @@
 	overflow: hidden;
 	position: relative;
 }
+
 .header:after{
 	content: " ";
 	display: block;
@@ -34,11 +31,13 @@
 	left: 0;
 	z-index: 2;
 }
+
 .header_images{
 	position: relative;
 	padding-bottom: 56.25%;
 	z-index: 1;
 }
+
 .fon_img{
 	width: 100%;
 	height: auto;
@@ -46,6 +45,7 @@
 	top: 0;
 	left: 0;
 }
+
 
 /*----------------header_block-------------------*/
 
@@ -60,11 +60,13 @@
 	flex-direction: column ;
 	justify-content: center;
 }
+
 .header_title{
 	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
 }
+
 .intro_title{
 	text-align: center;
 	color: white;
@@ -72,20 +74,23 @@
 	padding-bottom: 2%;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
+
 .name_title{
 	font-size: 3vw;
 	background-color: red;
 	border-radius: 50%;
 	padding: 0.5%;
 }
+
 .batton_title{
 	padding-top: 3%;
 }
+
 .h1_title{
 	letter-spacing: 0.5vw;
 	font-family: 'Oswald', sans-serif;
-
 }
+
 .a_title{
 	color: white;
 	text-decoration: none;
@@ -95,23 +100,25 @@
 	border-radius: 10px;
 	transition: 0.5s;
 }
+
 .a_title:hover{
 	color: red;
 	border: 2px solid white;
 }
 
+
 /*-----------------------------Блок_2---------------------------------------*/
+
 
 /*---------about_me-----------------*/
 
 .about_me{
 
 }
+
 .information{
 	padding:0 10% 0 10%;
 	margin-bottom: 5%;
-	
-
 }
 
 .h3_about_me{
@@ -128,8 +135,6 @@
 	font-family: 'Caveat', cursive;
 }
 
-
-
 /*---------about_me_skills------------*/
 
 .about_me_skills{
@@ -142,32 +147,24 @@
 	color: white;
 	font-size: 3vw;
 	padding-top: 3%;
-
-	
-
 }
+
 .about_me_ul{
 	display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-   
-
-
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
+
 .about_me_ul>li{
 	list-style-type: none;	
 	padding: 15px; 
 	margin: 2vw 3vw 2vw 3vw ;
 	width: 150px;
-
-	 box-shadow: 0 8px 16px 0 rgb(255,255,255);
-	 
-
-	
-    transition: 0.3s;
-   background-image: url(images/cosmos.jpg);
-    border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgb(255,255,255);
+  transition: 0.3s;
+  background-image: url(images/cosmos.jpg);
+  border-radius: 10px;
 }
 
 .about_me_ul>li:hover {
@@ -176,8 +173,7 @@
 
 .about_me_ul>li>img{
  	width: 150px;
-
- }
+}
 
 .about_me_ul>li>h6{
 	font-size: 1.5vw;
@@ -187,9 +183,8 @@
 	margin-top: 5px;
 	background-color: white;
 	border-radius: 5px;
-
-
 }
+
 .about_me_ul>li>p{
 	font-size: 1.3vw;
 	padding-top: 20px;
@@ -198,7 +193,6 @@
 	font-family: 'Caveat', cursive;
 	color: white;
 	line-height: 25px;
-
 }
 
 
@@ -211,8 +205,8 @@
 @media screen and (max-width: 800px){
 
 
-
 /*-----------------------------Блок_2---------------------------------------*/
+
 
 /*---------about_me-----------------*/
 
